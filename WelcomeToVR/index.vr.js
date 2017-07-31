@@ -11,7 +11,7 @@ export default class WelcomeToVR extends React.Component {
   render() {
     return (
       <View>
-        <Pano source={asset('chess-world.jpg')}/>
+        <Pano source={asset('outdoor.jpg')}/>
         <Text
           style={{
             backgroundColor: '#777879',
@@ -24,7 +24,7 @@ export default class WelcomeToVR extends React.Component {
             textAlignVertical: 'center',
             transform: [{translate: [0, 0, -3]}],
           }}>
-          hello
+          welcome
         </Text>
       </View>
     );
